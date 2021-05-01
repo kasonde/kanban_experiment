@@ -1,0 +1,29 @@
+.taskStateList {
+  border: 1px solid #eee;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.taskStateListTitle {
+  margin-top: 10px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.taskStateList .listItems {
+  display: flex;
+  flex-direction: column;
+}

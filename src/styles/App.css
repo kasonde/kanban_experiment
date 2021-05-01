@@ -1,0 +1,57 @@
+.appContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #f3f4f6;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.delete {
+  background-color: salmon;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.edit {
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.add {
+  background-color: mediumslateblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.save {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

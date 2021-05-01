@@ -1,3 +1,3 @@
 export default interface TaskState {
-  name: String;
+  name: string;
 }

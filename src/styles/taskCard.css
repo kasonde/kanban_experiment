@@ -1,0 +1,33 @@
+.taskCard {
+  font-size: 0.8em;
+  border-bottom: 1px solid #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.taskCard .title {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.taskCard .title input {
+  width: 100%;
+}
+
+.taskCard .controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.taskCard .controls button {
+  margin-right: 5px;
+}
+
+.taskCard .stateSelector {
+  margin-top: 10px;
+}
