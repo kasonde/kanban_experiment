@@ -1,3 +1,13 @@
+# I ❤️ Kanban Boards Experiment app
+
+I used this repo just to test my thoughts before adding them into the main repo and designing the approach for my project. So far I should say, my decision to use typescript will require ment to think carefully about folder structure, state management and more...
+
+## FYI
+
+- To manage state in this experiment, I used `useContext` + `useReducer`
+- To create task ids, I used [uuid](https://npmjs.com/package/uuid)
+- A bunch of the methods used here can definitely be improved. I just needed to see something working. If you have any recommendations or changes, you're free to make contributions :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
